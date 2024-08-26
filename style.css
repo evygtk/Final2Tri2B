@@ -86,7 +86,7 @@ body {
 
 .banner__pesquisa::placeholder {
     font-family: var(--fonte-principal);
-    font-size: 14px;
+    font-size: 60px;
     font-weight: 400;
     text-align: center;
     color: var(--branco);
