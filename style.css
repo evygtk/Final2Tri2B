@@ -8,8 +8,8 @@
 }
 body {
     background: var(--cor-de-fundo);
-    font-size: 7px;
-    font-weight: 3;
+    font-size: 700px;
+    font-weight: 500;
 }   
 .cabeçalho {
     background-color: var(--branco);
