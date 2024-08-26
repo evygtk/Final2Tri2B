@@ -8,7 +8,7 @@
 }
 body {
     background: var(--cor-de-fundo);
-    font-size: 500px;
+    font-size: 10px;
     font-weight: 400;
 }   
 .cabeçalho {
