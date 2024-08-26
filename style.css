@@ -8,8 +8,8 @@
 }
 body {
     background: var(--cor-de-fundo);
-    font-size: 7px;
-    font-weight: 3;
+    font-size: 160px;
+    font-weight: 300;
     width: 4485px;
     height: 500px;
 }   
