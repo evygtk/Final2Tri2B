@@ -63,6 +63,7 @@ body {
     color: var(--branco);
     text-align: center;
     padding: 2.5em 2em;
+    width: 20px;
 }
 
 .banner__titulo {
