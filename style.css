@@ -81,7 +81,7 @@ body {
     color: var(--branco);
     border-radius: 40px;
     padding: 1em;
-    width: 100%;
+    width: 100px;
 }
 
 .banner__pesquisa::placeholder {
