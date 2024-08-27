@@ -80,8 +80,8 @@ body {
     border: 1px solid var(--branco);
     color: var(--branco);
     border-radius: 40px;
-    padding: 2em;
-    width: 250%;
+    padding: 1em;
+    width: 150%;
 }
 
 .banner__pesquisa::placeholder {
