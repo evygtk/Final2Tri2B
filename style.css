@@ -9,7 +9,7 @@
     --cor-de-fundo: #EBECEE;
     --branco: #FFFFFF;
     --laranja: #375283;
-    --azul-degrade: linear-gradient(97.54deg, #121727 35.49%, #8ec3e9 165.37%);
+    --azul-bebe: linear-gradient(97.54deg, #121727 35.49%, #8ec3e9 165.37%);
     --fonte-principal: "Poppins";
     --fonte-secundaria: "Josefin Sans";
 }
@@ -105,7 +105,8 @@ body {
 }
 
 .topicos {
-    background: var(--azul-degrade);
+    
+    background: var(--azul-bebe);
     text-align: center;
     padding: 1em 3;
     margin: 40px;
