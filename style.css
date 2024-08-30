@@ -15,7 +15,6 @@
 }
 
 body {
-    background: var(--cor-de-fundo);
     font-size: 16px;
     font-weight: 400;
 }
@@ -35,8 +34,8 @@ body {
 }
 
 .container__imagem {
-    padding: 1em;
-    margin: 1;
+    width: 20%;
+    height: 20%;
 
 }
 
@@ -151,7 +150,7 @@ body {
   }
   .contato__titulo,
   .contato__texto {
-   background:var(--azul-degrade);
+    background: var(--azul-degrade);
   -webkit-background-clip: text;
   -webkit-text-fill-color:transparent;
    background-clip: text;
