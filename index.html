@@ -4,9 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Portfólio</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Link para o arquivo CSS externo -->
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
+    <!-- Cabeçalho com Banner -->
+    <header class="banner">
+        <div class="overlay">
+            <h1>Meu Portfólio</h1>
+            <p>Explorando o mundo do desenvolvimento web</p>
+            <a href="#projects" class="button">Veja meus projetos</a>
+        </div>
+    </header>
 
     <!-- Navegação -->
     <nav class="navbar">
@@ -15,12 +24,11 @@
         <a href="#contact">Contato</a>
     </nav>
 
-    <!-- Seção de Introdução -->
-    <header class="container">
-        <h1>Bem-vindo ao meu Portfólio</h1>
-        <p>Eu sou [Seu Nome], um desenvolvedor web apaixonado por criar soluções criativas e funcionais.</p>
-        <a href="#projects" class="button">Veja meus projetos</a>
-    </header>
+    <!-- Seção de Sobre -->
+    <section id="about" class="container about-section">
+        <h2>Sobre Mim</h2>
+        <p>Eu sou [Seu Nome], um desenvolvedor web apaixonado por criar soluções inovadoras e eficazes. Tenho experiência em HTML, CSS, JavaScript e outras tecnologias modernas.</p>
+    </section>
 
     <!-- Seção de Projetos -->
     <section id="projects" class="container">
@@ -28,6 +36,7 @@
         <div class="grid">
             <div class="column">
                 <div class="card">
+                    <img src="project1.jpg" alt="Projeto 1">
                     <h3>Projeto 1</h3>
                     <p>Descrição breve do projeto 1.</p>
                     <a href="#" class="button">Ver mais</a>
@@ -35,6 +44,7 @@
             </div>
             <div class="column">
                 <div class="card">
+                    <img src="project2.jpg" alt="Projeto 2">
                     <h3>Projeto 2</h3>
                     <p>Descrição breve do projeto 2.</p>
                     <a href="#" class="button">Ver mais</a>
@@ -42,6 +52,7 @@
             </div>
             <div class="column">
                 <div class="card">
+                    <img src="project3.jpg" alt="Projeto 3">
                     <h3>Projeto 3</h3>
                     <p>Descrição breve do projeto 3.</p>
                     <a href="#" class="button">Ver mais</a>
@@ -69,7 +80,7 @@
     </section>
 
     <!-- Rodapé -->
-    <footer class="container">
+    <footer class="footer">
         <p>&copy; 2024 Meu Nome. Todos os direitos reservados.</p>
     </footer>
 
