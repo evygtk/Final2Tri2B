@@ -1,100 +1,77 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-  <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet"> 
-    <title>NewJeans<3</title>
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link para o arquivo CSS externo -->
 </head>
-
 <body>
-  <header class="cabeçalho">
-    <div class="container">
-     
-        <label for="menu">
-            <span class="cabeçalho__menu-hamburguer     
-            container__imagem">
-           </span>
-        </label>
-       
-        <img src="https://mail.google.com/mail/u/0?ui=2&ik=2a29aea466&attid=0.1&permmsgid=msg-f:1808837011399409401&th=191a47ada10a7ef9&view=att&disp=safe&realattid=191a47a9dfa580d05981" alt="Logo da Altura Books" class="NewJeans">
-        <section class="topicos">
-          <h2 class="topicos__titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
-          <ul class="topicos__lista">
-            <li class="topicos__itens">
-              <a href="#" class="topicos__link">Android</a>
-            </li>
-            <li class="topicos__itens">
-              <a href="#" class="topicos__link">Marketing Digital</a>
-            </li>
-            <li class="topicos__itens">
-              <a href="#" class="topicos__link">Agile</a>
-            </li>
-            <li class="topicos__itens">
-              <a href="#" class="topicos__link">Startup</a>
-            </li>
-            <li class="topicos__itens">
-              <a href="#" class="topicos__link">HTML E CSS</a>
-            </li>
-            <li class="topicos__itens">
-              <a href="#" class="topicos__link">Python</a>
-            </li>
-            <li class="topicos__itens">
-              <a href="#" class="topicos__link">OO</a>
-            </li>
-            <li class="topicos__itens">
-              <a href="#" class="topicos__link">Java</a>
-            </li>
-          </ul>
-        </section>   
-        <h1 class="container__titulo">
-<b class="container__titulo--negrito"></b>
-  </h1>
 
-    
-    <ul class="lista-menu">
-      <li class="lista-menu__titulo">Categorias</li>
-      <li class="lista-menu__item">
-        <a href="#" class="lista-menu__link">Programação</a>
-      </li>
-      <li class="lista-menu__item">
-        <a href="#" class="lista-menu__link">Front-end</a>
-      </li>
-      <li class="lista-menu__item">
-        <a href="#" class="lista-menu__link">Infraestrutura</a>
-      </li>
-      <li class="lista-menu__item">
-        <a href="#" class="lista-menu__link">Business</a>
-      </li>
-      <li class="lista-menu__item">
-        <a href="#" class="lista-menu__link">Design & UX</a>
-      </li>
-   </ul>
-</header>
+    <!-- Navegação -->
+    <nav class="navbar">
+        <a href="#about">Sobre</a>
+        <a href="#projects">Projetos</a>
+        <a href="#contact">Contato</a>
+    </nav>
 
+    <!-- Seção de Introdução -->
+    <header class="container">
+        <h1>Bem-vindo ao meu Portfólio</h1>
+        <p>Eu sou [Seu Nome], um desenvolvedor web apaixonado por criar soluções criativas e funcionais.</p>
+        <a href="#projects" class="button">Veja meus projetos</a>
+    </header>
 
-<section class="contato">
-  <h2 class="contato__titulo"> Fique por dentro das novidades</h2>
-  <p class="contato__texto"> Atualizações de e-books, novos livros,  
-  promoções e outros.</p>
-  <input type="email" placeholder="Cadastre seu e-mail"    
-  class="contato__email">         
-</section>
-<div class="cabecalho">
-   <div class="container">
-     <h1 class="cabecalho_titulo">
-      <b class="cabecalho_tittuli-negrito">Alura</b>Books
+    <!-- Seção de Projetos -->
+    <section id="projects" class="container">
+        <h2>Meus Projetos</h2>
+        <div class="grid">
+            <div class="column">
+                <div class="card">
+                    <h3>Projeto 1</h3>
+                    <p>Descrição breve do projeto 1.</p>
+                    <a href="#" class="button">Ver mais</a>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card">
+                    <h3>Projeto 2</h3>
+                    <p>Descrição breve do projeto 2.</p>
+                    <a href="#" class="button">Ver mais</a>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card">
+                    <h3>Projeto 3</h3>
+                    <p>Descrição breve do projeto 3.</p>
+                    <a href="#" class="button">Ver mais</a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-     </h1>
+    <!-- Seção de Contato -->
+    <section id="contact" class="container">
+        <h2>Contato</h2>
+        <p>Entre em contato comigo para discutir mais sobre projetos ou colaborações.</p>
+        <form action="submit_form.php" method="post">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
 
-   </div>
-   
-</div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
 
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit" class="button">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="container">
+        <p>&copy; 2024 Meu Nome. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
 </html>
